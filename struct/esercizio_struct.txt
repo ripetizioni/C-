@@ -1,0 +1,18 @@
+Esercizio: Definizione e utilizzo delle struct in C++
+
+1. Definisci una struct chiamata `Studente` che rappresenta uno studente con le seguenti proprietà:
+   - `nome` di tipo `string`
+   - `cognome` di tipo `string`
+   - `classe` di tipo `int`
+
+2. Scrivi una funzione che accetta un `Studente` come parametro e stampa le informazioni dello studente.
+
+3. Scrivi una funzione che accetta un array di `Studente` e la sua dimensione, e stampa le informazioni di tutti gli studenti.
+
+4. Scrivi una funzione che accetta un array di `Studente` e la sua dimensione, e restituisce lo studente con la media più alta.
+
+5. Crea una struct classe per gestire gli studenti appartenenti alla stessa classe
+
+6. Nel file `main.cpp`, crea degli esempi che dimostrano l'uso della struct e delle funzioni definite.
+
+Nota: Utilizza `using namespace std` per evitare di dover scrivere `std::` prima di ogni tipo della libreria standard.

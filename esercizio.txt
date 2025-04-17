@@ -1,0 +1,28 @@
+💻 Esercizio: Gestione di un Registro Presenze in Aula
+Obiettivo: Creare un programma che simuli un sistema semplificato di registrazione delle presenze in una classe, utilizzando tutti e tre i tipi di ciclo (for, while, do-while).
+
+✅ Requisiti:
+Chiedere all’utente quanti studenti ci sono nella classe.
+
+Utilizzare un ciclo for per inserire i nomi degli studenti in un array.
+
+Utilizzare un ciclo while per registrare la presenza o assenza di ogni studente, permettendo all’utente di inserire “P” per presente e “A” per assente.
+
+Alla fine, con un ciclo do-while, chiedere all’utente se vuole stampare:
+
+L’elenco completo,
+
+Solo i presenti,
+
+Solo gli assenti,
+
+Oppure uscire.
+
+Stampare il risultato scelto.
+
+🧠 Suggerimenti:
+Usare due array paralleli: uno per i nomi e uno per le presenze.
+
+Usare funzioni (facoltativo) per rendere il codice più ordinato.
+
+Validare l’input dell’utente (es. accettare solo “P” o “A”).

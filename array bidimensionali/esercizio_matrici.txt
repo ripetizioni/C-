@@ -1,0 +1,36 @@
+Esercizio: Gestione di una libreria con array bidimensionali
+
+Descrizione:
+Scrivi un programma in C++ che utilizza un array bidimensionale per rappresentare una libreria. 
+Ogni riga dell'array rappresenta uno scaffale e ogni colonna rappresenta una posizione per un libro su quello scaffale. 
+
+Il programma deve permettere di:
+
+1. Inizializzare la libreria con un numero specifico deciso con delle costanti per gli scaffali e posizioni per scaffale.
+2. Aggiungere un libro in una posizione specifica.
+3. Rimuovere un libro da una posizione specifica.
+4. Visualizzare lo stato attuale della libreria.
+5. Deve essere in un do-while (se inserisco x esco dal programma) con dentro uno switch case per permettere la scelta
+
+Suggerimenti:
+- Utilizza una matrice di stringhe per rappresentare i libri nella libreria.
+- Inizializza tutte le posizioni della matrice con una stringa vuota o un valore che indica che la posizione è vuota.
+- Implementa funzioni separate per aggiungere, rimuovere e visualizzare i libri.
+
+Descrizione delle funzioni:
+
+1. void inizializzaLibreria(string libreria[num_righe][num_colonne]):
+   - Inizializza la matrice della libreria con il numero specificato di scaffali e posizioni per scaffale.
+   - Imposta tutte le posizioni inizialmente come vuote.
+
+2. void aggiungiLibro(string libreria[num_righe][num_colonne], int numScaffale,int numPosizione, string libro):
+   - Aggiunge un libro nella posizione specificata della libreria.
+   - Controlla se la posizione è valida e se è vuota prima di aggiungere il libro.
+
+3. void rimuoviLibro(string libreria[num_righe][num_colonne], int numScaffale,int numPosizione):
+   - Rimuove un libro dalla posizione specificata della libreria.
+   - Controlla se la posizione è valida e se contiene un libro prima di rimuoverlo.
+
+4. void stampaLibreria(string libreria[num_righe][num_colonne]):
+   - Visualizza lo stato attuale della libreria.
+   - Stampa la matrice della libreria mostrando i libri presenti in ogni posizione.

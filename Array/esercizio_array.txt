@@ -1,0 +1,26 @@
+Ecco il testo dell'esercizio:
+
+### Esercizio: Utilizzo di `if-else`, `while`, `do-while`, `for`, array e funzioni
+
+Scrivi un programma in C++ che esegua le seguenti operazioni:
+
+1. **Inserimento dei valori in un array**:
+    chiedi all'utente quanto deve essere grande un array e poi inserisce ogni valore
+
+2. **Calcolo della media**:
+    - Scrivi una funzione `calcolaMedia` che prenda in input un array di interi e la sua dimensione, e restituisca la media dei valori presenti nell'array.
+    - Chiama questa funzione nel `main` e stampa il risultato.
+
+3. **Trovare il massimo e il minimo valore**:
+    - Scrivi una funzione `trovaMassimo` e 'trovaMinimo' che prenda in input un array di interi e la sua dimensione, e restituisca il valore massimo presente nell'array.
+    - Chiama questa funzione nel `main` e stampa il risultato.
+
+4. **Utilizzo di `do-while`**:
+    - Chiedi all'utente se vuole ripetere l'inserimento dei numeri e il calcolo della media e del massimo. Utilizza un ciclo `do-while` per ripetere l'operazione finché l'utente non decide di terminare.
+
+5. **Utilizzo di `if-else`**:
+    - All'interno del ciclo `do-while`, utilizza una struttura `if-else` per verificare se l'utente ha inserito un numero valido (ad esempio, un numero intero positivo).
+
+6. ricerca di un valore nell'array deciso dall'utente 
+    - Se viene trovato si restituisca un booleano true se si trova false se non
+```
