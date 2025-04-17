@@ -29,6 +29,21 @@ int main(){
             cout<<"Errore! Hai inserito un carattere non consentito";
         } 
     }
+    do
+    {
+    int stampa;
+    switch (stampa)
+    {
+    case :
+        /* code */
+        break;
+    
+    default:
+        break;
+    }
+    } while (condition);
+    
+    
 }
 
 
