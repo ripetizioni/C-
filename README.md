@@ -6,7 +6,7 @@ Benvenuti in questa guida al linguaggio di programmazione C++. Questo repository
 1. [Array Monodimensionali](#array-monodimensionali)
 2. [Array Bidimensionali](#array-bidimensionali)
 3. [Strutture (Struct)](#strutture-struct)
-4. [Gestione delle Presenze](#gestione-delle-presenze)
+4. [Gestione delle Presenze (esempio)](#esempio-gestione-delle-presenze)
 5. [Cicli in C++](#cicli-in-c)
 6. [Strutture di controllo condizionali](#strutture-di-controllo-condizionali)
 
@@ -245,7 +245,7 @@ struct Classe {
 
 ---
 
-## Gestione delle Presenze
+## Esempio gestione delle Presenze
 
 Nella cartella `/esercizio_classe/`, abbiamo implementato un sistema di registrazione delle presenze che utilizza tutti e tre i tipi di cicli in C++.
 
