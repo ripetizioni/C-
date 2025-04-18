@@ -2,7 +2,7 @@
 using namespace std;
 int dimensione_fisica=0;
 int dimensione_logica=0;
-struct Libro biblioteca[];
+struct Libro biblioteca[20];
 
 struct Libro
 {
@@ -41,11 +41,16 @@ void riempiLibreria()
 
 void stampaLibro(int id)
 {
-    cout<< "\n Libro: "<<biblioteca[id].titolo<<" || "<<biblioteca[id].autore<<" || "<<biblioteca[id].anno<<" || "<<biblioteca[id].disponibile;
+    cout<< "\n Titolo: "<<biblioteca[id].titolo<<" \nAutore "<<biblioteca[id].autore<<" \nAnno "<<biblioteca[id].anno<<" \nStato "<<(biblioteca[id].disponibile ? "Disponibile" : "Prestato");
 }
 
 void visualizzaLibri()
 {
+    if (dimensione_logica == 0)
+    {
+        cout<<"\nNessun libro presente";
+    }
+
     for(int i=0; i<dimensione_fisica; i++)
     {
         stampaLibro(i);
@@ -84,6 +89,30 @@ void cercaAutore()
     
 }
 
-
-
-
+void prestito()
+{
+    string titolo;
+    bool disponibile=false;
+    cout<<"\n Che libro vuoi in prestito? ";
+    cin>>titolo;
+    for(int i=0; i < dimensione_logica; i++)
+    {
+        if(biblioteca[i].titolo == titolo)
+        {
+            disponibile=true;
+            if(biblioteca[i].disponibile)
+            {
+                biblioteca[i].disponibile=false;
+                cout<<"\n Il libro è stato prestato!";
+            }else
+            {
+                cout<<"\n Il libro è già stato prestato";
+            }
+        }
+    }
+    if (!disponibile)
+    {
+        cout<<"\n Il libro non disponibile in biblioteca.";
+    }
+    
+}
