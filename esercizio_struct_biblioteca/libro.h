@@ -2,7 +2,7 @@
 using namespace std;
 int dimensione_fisica=0;
 int dimensione_logica=0;
-struct Libro biblioteca[20];
+struct Libro biblioteca[];
 
 struct Libro
 {
