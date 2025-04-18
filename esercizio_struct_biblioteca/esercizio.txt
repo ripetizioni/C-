@@ -1,0 +1,34 @@
+Gestione Biblioteca con Ricerca Libri
+
+🎯 Obiettivo:
+Realizzare un programma in C++ che gestisca un piccolo catalogo di libri in una biblioteca scolastica. Ogni libro è rappresentato da una struct contenente titolo, autore, anno di pubblicazione e disponibilità. Il programma deve permettere all’utente di inserire libri, visualizzarli, cercarne uno per titolo o autore, e registrare prestiti.
+
+✅ Requisiti:
+Definire una struct Libro con:
+
+-string titolo
+-string autore
+-int anno
+-bool disponibile
+
+Chiedere quanti libri si vogliono inserire e usare un ciclo for per inserire i dati nei libri.
+
+Mostrare un menù interattivo con un ciclo do-while che permetta di:
+
+-Visualizzare tutti i libri
+-Cercare un libro per titolo (usare un ciclo while per scorrere finché non lo trova)
+-Cercare per autore
+-Registrare un prestito (imposta disponibile = false)
+-Uscire
+
+Validare gli input (es. se si cerca un libro non esistente, mostrare un messaggio).
+
+🧠 Suggerimenti:
+Usare getline(cin, ...) per leggere stringhe con spazi.
+
+Stampare lo stato del libro in modo chiaro (Es: “Disponibile” o “Prestato”).
+
+Usare funzioni per ordinare il codice (inserisciLibri, visualizza, cercaTitolo, ecc.).
+
+
+
