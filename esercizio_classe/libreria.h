@@ -16,19 +16,19 @@ void presenti_assenti(int numeroStudenti, char presenze[], string nomeStudenti[]
     //assente=1
     if(assenze==1)
     {
-        for(int i =0; i < numeroStudenti; i++ )
-        {
-            if(presenze[i] == 'P')
-            {
-                cout<<"studente "<< nomeStudenti[i];
-            }
-        }
-    }else if(assenze=0){
-        for(int i =0; i < numeroStudenti; i++ )
+        for(int i = 0; i < numeroStudenti; i++ )
         {
             if(presenze[i] == 'A')
             {
-            cout<<"studente "<< nomeStudenti[i];
+                cout<<"studente "<< nomeStudenti[i]<<"\n";
+            }
+        }
+    }else if(assenze==0){
+        for(int i = 0; i < numeroStudenti; i++ )
+        {
+            if(presenze[i] == 'P')
+            {
+            cout<<"studente "<< nomeStudenti[i]<<"\n";
             }
         }
     }else
